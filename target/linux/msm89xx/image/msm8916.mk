@@ -47,7 +47,7 @@ TARGET_DEVICES += Handsome_handsome-openstick-ufi001c
 define Device/Handsome_handsome-openstick-ufi003
   $(Device/msm8916)
   DEVICE_VENDOR := Handsome
-  DEVICE_MODEL := OpenStick UFI001C
+  DEVICE_MODEL := OpenStick UFI003
   DEVICE_PACKAGES := openstick-tweaks wpad-basic-wolfssl kmod-qcom-modem qcom-msm8916-modem-openstick-ufi003-firmware qcom-msm8916-openstick-ufi003-wcnss-firmware qcom-msm8916-wcnss-openstick-ufi003-nv
 endef
 
